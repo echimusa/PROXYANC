@@ -1,0 +1,32 @@
+#No space allowed
+#Data directory for candidate proxy ancestral pops
+popDD:/home/emile/data/PROXYANC_SIM/REF2/
+#Data under study
+admixD:sac.chr1.sim
+SNPd:sac.chr1.snp
+#General Options
+windows:100
+subSNP:500
+Subpop:2
+relatedInd:YES
+maf:0.001
+LDcutoff:0.005
+writeLD:NO
+WeightedLD:NO
+Sampling:1000
+#Method options
+Fstscore:NO
+Frqscore:NO
+pwFst:NO
+Ufrq:NO
+Lexp:NO
+#Ploting options
+no-log:NO
+colors:bkrgc
+lines:NO
+#Informative Markers Selection
+cMspace:1.2
+aims:YES
+PCAaims:NO
+#Output Directory
+outp:OUT/
